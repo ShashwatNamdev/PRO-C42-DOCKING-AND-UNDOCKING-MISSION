@@ -59,7 +59,6 @@ function draw() {
     hasDocked = true;
     textSize(20);
     text("Docking Successful!",1000,700);
-    iss.velocityY = -3;
   }
   
   drawSprites();
