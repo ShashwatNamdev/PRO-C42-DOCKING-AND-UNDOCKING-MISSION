@@ -17,7 +17,7 @@ function setup() {
   iss = createSprite(400,300);
   iss.addImage("issImage",issImg);
   spacecraft = createSprite(400,700);
-  spacecraft.x = random(100,900);
+  // spacecraft.x = random(100,900);
   spacecraft.addImage("spacecraftImage",spacecraftImg1);
   spacecraft.scale = 0.3;
 
@@ -59,6 +59,7 @@ function draw() {
     hasDocked = true;
     textSize(20);
     text("Docking Successful!",1000,700);
+    console.log("Docking Successful!");
   }
   
   drawSprites();
