@@ -57,8 +57,9 @@ function draw() {
 
   if(spacecraft.x===330 && spacecraft.y===398){
     hasDocked = true;
-    textSize(20);
-    text("Docking Successful!",1000,700);
+    textSize(30);
+    fill("white")
+    text("Docking Successful!",400,700);
     console.log("Docking Successful!");
   }
   
